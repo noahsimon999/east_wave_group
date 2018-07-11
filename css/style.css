@@ -19,7 +19,7 @@
 .hero {
     z-index: 1;
     background-color: white;
-    height: 300px;
+    height: 80%;
     width: 600px;
     opacity: .9;
     margin: auto;
