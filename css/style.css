@@ -1,0 +1,59 @@
+.navbar {
+    z-index: 1;
+    background-color: red;
+    box-shadow: 3px 3px 3px black;
+}
+
+.navbar a {
+    color: white;
+}
+
+
+.video{
+    z-index: -1;
+    height: 80%;
+}
+
+.hero {
+    z-index: 1;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    opacity: .9;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.hero h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin-top: -1em;
+}
+
+.signup-container {
+    background-color: red;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.signup-container label {
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+.signup-container form {
+    position: relative;
+    top: 50%;
+    margin-top: -2.75em;
+}
+
+.row {
+    margin-bottom: 20px;
+}
