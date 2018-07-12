@@ -95,3 +95,21 @@ margin: auto;
 .row {
     margin-bottom: 20px;
 }
+
+.page-break2 {
+    background-color: red;
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.page-break2 button {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 35%;
+    margin-top: -2.75em;
+    border-radius: 25px;
+}
