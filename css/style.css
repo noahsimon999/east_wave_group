@@ -19,7 +19,7 @@
     top: -200px;
 }
 
-.hero {
+.jumbotron {
     z-index: 1;
     background-color: white;
     height: 35%;
@@ -33,22 +33,22 @@
     border-radius: 1em;
 }
 
-.hero h1 {
+.jumbotron h1 {
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 5%;
     margin-top: -1em;
 }
 
-.hero p {
+.jumbotron p {
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 5%;
 }
 
 .main-container .signup-container2 {
     position: relative;
-    top: 40%;
+    top: 15%;
 }
 
 .main-container .signup-container2 label {
@@ -72,6 +72,11 @@
     height: 50px;
     width: 200px;
     border-radius: 25px;
+}
+
+.main-container .signup-container2 .submit:hover {
+    background-color: #A23E48;
+    color: white;
 }
 
 /* ---------------------------- page break ---------------------------- */
