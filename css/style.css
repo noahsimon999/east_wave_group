@@ -19,12 +19,12 @@
 .hero {
     z-index: 1;
     background-color: white;
-    height: 80%;
+    height: 35%;
     width: 600px;
     opacity: .9;
     margin: auto;
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     margin-left: -300px;
     border-radius: 1em;
