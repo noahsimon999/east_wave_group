@@ -98,25 +98,15 @@ body {
     height: 200px;
     text-align: center;
     margin-bottom: 20px;
-    position: relative;
-    top: -200px;
+    position: absolute;
+    top: 880px;
 }
 
 .page-break1 h1 {
     position: relative;
     top: 35%;
-    margin-top: -2.75em;
+    margin-top: -0.75em;
     color: white;
-}
-
-/* ---------------------------- instagram content ---------------------------- */
-
-.instagram-container {
-    margin-top: -200px;
-}
-
-.row {
-    margin-bottom: 20px;
 }
 
 /* ---------------------------- instagram link ---------------------------- */
