@@ -30,7 +30,7 @@ body {
 .jumbotron {
     z-index: 1;
     background-color: white;
-    height: 35%;
+    height: 300px;
     width: 600px;
     opacity: .9;
     margin: auto;
