@@ -106,7 +106,6 @@ body {
 
 .page-break1 {
     background-color: red;
-    /* height: 200px; */
     padding: 100px 0;
     width: 100%;
     text-align: center;
@@ -131,6 +130,8 @@ body {
     top: 290px;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 
@@ -138,7 +139,7 @@ body {
 
 .page-break2 {
     position: absolute;
-    top: 650px;
+    top: 700px;
     left: 50%;
     transform: translateX(-50%);
     background-color: red;
@@ -229,6 +230,9 @@ body {
     transform: translateX(-50%);
 }
 
+.row {
+    margin-bottom: 25px;
+}
 
 /* ---------------------------- contact page ---------------------------- */
 .photo-background {
