@@ -54,27 +54,32 @@ body {
     top: 5%;
 }
 
-.main-container .signup-container2 {
-    position: relative;
-    top: 15%;
-}
-
-.main-container .signup-container2 label {
-    display: block;
+#mc_embed_signup {
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
     text-align: center;
 }
 
-.main-container .signup-container2 .email {
-    display: block;
-    text-align: center;
-    position: relative;
-    margin: auto;
+.email-field {
+    width: 500px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.main-container .signup-container2 .submit {
-    display: block;
-    margin: auto;
-    margin-top: 5px;
+
+.submit-button {
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: red;
     color: white;
     height: 50px;
@@ -82,11 +87,10 @@ body {
     border-radius: 25px;
 }
 
-.main-container .signup-container2 .submit:hover {
+.submit-button:hover {
     background-color: #A23E48;
     color: white;
 }
-
 /* ---------------------------- page break ---------------------------- */
 
 .page-break1 {
@@ -130,9 +134,7 @@ body {
     height: 75px;
     width: 350px;
     font-size: 1.5em;
-    position: relative;
-    top: 35%;
-    margin-top: -2.75em;
+    margin-top: 2.25em;
     border-radius: 25px;
 }
 
@@ -140,6 +142,8 @@ body {
     background-color: #A23E48;
     color: white;
 }
+
+
 
 /* ---------------------------- scroll to bottom arrow ---------------------------- */
 
@@ -204,3 +208,27 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+/* ---------------------------- contact page ---------------------------- */
+.photo-background {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    background-color: black;
+    height: 350px
+}
+
+.contact-img {
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-contact {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+

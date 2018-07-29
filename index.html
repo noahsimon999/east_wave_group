@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>East Wave Chicago</title>
 </head>
 <body>
@@ -30,7 +26,7 @@
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 </ul>
             </div>
@@ -48,11 +44,21 @@
             <h1>The Next Wave of Asian Influencers</h1>
             <p>We spread the word about Asian influencers and events in Chicago</p>
             <div class="signup-container2">
-                <form>
-                    <label>Subscribe to get the latest events and meet your local influencers</label>
-                    <input class="email" type="email" value="Enter your email here" size="50px"></input>
-                    <input class="submit" type="submit" value="subscribe">
-                </form>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://eastwavechicago.us18.list-manage.com/subscribe/post?u=8df125f7c9a47963c4aa22cc7&amp;id=b402ee8cac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="signup-label">Subscribe to get the latest events and meet your local influencers</label>
+                            <input class="email-field" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address here" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8df125f7c9a47963c4aa22cc7_b402ee8cac" tabindex="-1" value=""></div>
+                            <div class="clear">
+                                <input class="submit-button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
             </div>
         </div>
         
@@ -65,7 +71,8 @@
     <!-- instagram api integration area -->
     <div class="container">
         <div class="instagram-container">
-            <div class="row">
+                <div class='embedsocial-instagram' data-ref="517c697fac0bc0547602033151f2229e3781bcee"></div>
+            <!-- <div class="row">
                 <div class="col-3">
                     <img src="images/instaImage.jpg" height="200">  
                 </div>
@@ -134,16 +141,23 @@
                 <div class="col-3">
                     <img src="images/instaImage.jpg" height="200">  
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- page break, instagram link -->
     <div class="page-break2">
-        <button>Follow us on Instagram</button> 
+        <a href="https://www.instagram.com/eastwaveinfluencers/"><button>Follow us on Instagram</button></a>
+        <br>
+        <p>Copyright &copy; 2018</p>
     </div>
     
     <!-- down arrow -->
     <div class="arrow bounce"></div>
+
+
+    
+
+    <script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
 </body>
 </html>
