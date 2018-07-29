@@ -88,8 +88,7 @@ body {
 }
 
 .submit-button:hover {
-    background-color: #A23E48;
-    color: white;
+    box-shadow: 3px 3px 3px darkgrey;
 }
 
 
@@ -160,8 +159,7 @@ body {
 }
 
 .page-break2 button:hover {
-    background-color: #A23E48;
-    color: white;
+    box-shadow: 3px 3px 3px darkred;
 }
 
 
@@ -231,7 +229,7 @@ body {
 }
 
 .row {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 /* ---------------------------- contact page ---------------------------- */
