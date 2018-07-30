@@ -3,9 +3,13 @@
 
 /* ---------------------------- top nav ---------------------------- */
 
-.navbar{
+.navbar {
     z-index: 2;
     box-shadow: 3px 3px 3px darkslategrey;
+}
+
+.navbar h1 {
+    font-family: 'Anton', sans-serif;
 }
 
 .navbar-collapse {
@@ -24,7 +28,7 @@ video {
 .jumbotron {
     z-index: 1;
     background-color: white;
-    padding: 50px 50px 25px 50px;
+    padding: 100px 50px 25px 50px;
     opacity: .9;
     position: absolute;
     top: 25%;
@@ -34,6 +38,7 @@ video {
 }
 
 .jumbotron h1 {
+    font-family: 'Anton', sans-serif;
     text-align: center;
     position: relative;
     top: 5%;
@@ -41,6 +46,7 @@ video {
 }
 
 .jumbotron p {
+    font-family: 'Anton', sans-serif;
     text-align: center;
     position: relative;
     top: 5%;
@@ -207,7 +213,7 @@ video {
     transform: translateX(-50%);
 }
 
-.row {
+.container-about .row {
     margin-bottom: 40px;
 }
 
@@ -249,12 +255,7 @@ video {
 
 /* ---------------------------- media queries ---------------------------- */
 
-@media only screen and (max-width: 1920px) {
-    .jumbotron {
-        padding: 50px 50px 25px 50px;
-    }
 
-}
 
 @media only screen and (max-width: 1920px) {
     .jumbotron {
