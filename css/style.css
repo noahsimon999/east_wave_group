@@ -93,7 +93,7 @@ video {
 
 /* ---------------------------- index content ---------------------------- */
 .main-conatiner {
-  
+    margin-top: -50px;
     width: 100%;
 }
 
