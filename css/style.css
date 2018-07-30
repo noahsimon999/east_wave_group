@@ -23,9 +23,13 @@ body {
     position: absolute;
     top: -200px;
     left: 50%;
+   
+    transform: translateX(-50%);
+}
+
+video {
     width: 100vw;
     margin: 0 auto;
-    transform: translateX(-50%);
 }
 
 .jumbotron {
