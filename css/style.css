@@ -319,7 +319,7 @@ video {
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 359px) {
 
     .page-break1 {
         padding: 300px 10px;
