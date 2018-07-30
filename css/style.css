@@ -47,26 +47,16 @@ video {
 }
 
 #mc_embed_signup {
-    background:#fff; 
-    clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
-    width: 90%;
     text-align: center;
+}
+
+.signup-label {
+    margin-top: 50px;
 }
 
 .email-field {
     width: 90%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
-}
-
-.clear {
-    margin-top: 50px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .submit-button {
@@ -266,12 +256,19 @@ video {
 
 }
 
+@media only screen and (max-width: 1920px) {
+    .jumbotron {
+        position: absolute;
+        top: 20%;
+    }
+
+}
 
 
 @media only screen and (max-width: 980px) {
     .jumbotron {
         position: absolute;
-        top: 20%;
+        top: 15%;
     }
     
     video {
@@ -288,7 +285,7 @@ video {
 @media only screen and (max-width: 640px) {
     .jumbotron {
         position: absolute;
-        top: 15%;
+        top: 10%;
     }
 
     video {
@@ -302,6 +299,11 @@ video {
 }
 
 @media only screen and (max-width: 395px) {
+    .jumbotron {
+        position: absolute;
+        top: 17%;
+    }
+    
     .page-break1 {
         padding: 200px 10px;
     }
@@ -319,7 +321,7 @@ video {
 @media only screen and (max-width: 360px) {
 
     .page-break1 {
-        padding: 280px 10px;
+        padding: 220px 10px;
     }
 
     video {
