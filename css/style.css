@@ -15,10 +15,10 @@
 
 /* ---------------------------- hero content ---------------------------- */
 
-/* .video-container {
+.video-container {
     position: relative;
     top: -200px;
-} */
+}
 .video {
     z-index: -1;
     height: 100%;
@@ -97,7 +97,7 @@ video {
 
 /* ---------------------------- index content ---------------------------- */
 .main-conatiner {
-    margin-top: -50px;
+    margin-top: -250px;
     width: 100%;
 }
 
