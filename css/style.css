@@ -26,7 +26,6 @@ video {
     background-color: white;
     padding: 50px 50px 25px 50px;
     opacity: .9;
-    margin: auto;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -57,8 +56,18 @@ video {
 
 .email-field {
     width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
 }
 
+.clear {
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .submit-button {
     background-color: red;
@@ -66,6 +75,7 @@ video {
     height: 50px;
     width: 200px;
     border-radius: 25px;
+    margin-top: 10px;
 }
 
 .submit-button:hover {
@@ -307,17 +317,13 @@ video {
 }
 
 @media only screen and (max-width: 360px) {
-    .jumbotron {
-        position: absolute;
-        top: 10%;
-    }
 
     .page-break1 {
-        padding: 220px 10px;
+        padding: 280px 10px;
     }
 
     video {
-        height: 600px;
+        height: 700px;
         margin: auto 0;
     }
 
