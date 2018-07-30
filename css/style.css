@@ -17,14 +17,14 @@
 
 video {
     width: 100vw;
-
+    display: block;
+    z-index: 0;
 }
 
 .jumbotron {
     z-index: 1;
     background-color: white;
-    height: 300px;
-    width: 600px;
+    padding: 50px 50px 25px 50px;
     opacity: .9;
     margin: auto;
     position: absolute;
@@ -51,28 +51,16 @@ video {
     background:#fff; 
     clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 500px;
+    width: 90%;
     text-align: center;
 }
 
 .email-field {
-    width: 500px;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 90%;
 }
 
 
 .submit-button {
-    position: absolute;
-    top: 225%;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: red;
     color: white;
     height: 50px;
@@ -87,7 +75,6 @@ video {
 
 /* ---------------------------- index content ---------------------------- */
 .main-conatiner {
-    /* margin-top: -250px; */
     width: 100%;
 }
 
@@ -103,7 +90,7 @@ video {
 
 .page-break1 {
     background-color: red;
-    padding: 100px 0;
+    padding: 100px 10px;
     width: 100%;
     text-align: center;
 
@@ -143,8 +130,11 @@ video {
     height: 75px;
     width: 350px;
     font-size: 1.5em;
-    margin-top: 2.25em;
     border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .page-break2 button:hover {
@@ -257,3 +247,34 @@ video {
     text-align: center;
 }
 
+/* ---------------------------- media queries ---------------------------- */
+
+@media only screen and (max-width: 980px) {
+    .jumbotron {
+        position: absolute;
+        top: 20%;
+    }
+    
+    video {
+        height: 600px;
+        margin: auto 0;
+    }
+
+    .video {
+        background-color: black;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .jumbotron {
+        position: absolute;
+        top: 15%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .page-break1 {
+        padding: 200px 10px;
+    }
+}
