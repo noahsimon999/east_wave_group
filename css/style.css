@@ -249,6 +249,16 @@ video {
 
 /* ---------------------------- media queries ---------------------------- */
 
+@media only screen and (max-width: 1920px) {
+    .jumbotron {
+        height: 400px;
+        width: 600px;
+    }
+
+}
+
+
+
 @media only screen and (max-width: 980px) {
     .jumbotron {
         position: absolute;
@@ -271,10 +281,49 @@ video {
         position: absolute;
         top: 15%;
     }
+
+    video {
+        height: 600px;
+        margin: auto 0;
+    }
+
+    .video {
+        background-color: black;
+    }
 }
 
 @media only screen and (max-width: 395px) {
     .page-break1 {
         padding: 200px 10px;
     }
+
+    video {
+        height: 600px;
+        margin: auto 0;
+    }
+
+    .video {
+        background-color: black;
+    }
 }
+
+@media only screen and (max-width: 360px) {
+    .jumbotron {
+        position: absolute;
+        top: 10%;
+    }
+
+    .page-break1 {
+        padding: 220px 10px;
+    }
+
+    video {
+        height: 600px;
+        margin: auto 0;
+    }
+
+    .video {
+        background-color: black;
+    }
+}
+
