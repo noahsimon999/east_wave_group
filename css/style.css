@@ -76,6 +76,7 @@ video {
 
 .submit-button:hover {
     box-shadow: 3px 3px 3px darkgrey;
+    cursor: pointer;
 }
 
 
@@ -144,6 +145,7 @@ video {
 
 .page-break2 button:hover {
     box-shadow: 3px 3px 3px darkred;
+    cursor: pointer;
 }
 
 
@@ -168,6 +170,7 @@ video {
 .about-img {
     position: relative;
     top: 50px;
+    width: 100vw;
 }
 
 .container-about {
@@ -191,6 +194,7 @@ video {
 
 .about-button:hover {
     box-shadow: 3px 3px 3px darkgrey;
+    cursor: pointer;
 }
 
 .consulting-button {
@@ -204,6 +208,7 @@ video {
 
 .consulting-button:hover {
     box-shadow: 3px 3px 3px darkgrey;
+    cursor: pointer;
 }
 
 .about-spacer {
@@ -228,6 +233,27 @@ video {
 .Megha-content {
     margin-top: -10px;
 }
+
+
+/* ---------------------------- consulting page ---------------------------- */
+
+
+.consulting-img {
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logos img {
+    height: 100px;
+}
+
+
+
+
+
+
 
 
 /* ---------------------------- contact page ---------------------------- */
