@@ -253,7 +253,6 @@ video {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
 }
 
 .logos img {
@@ -261,8 +260,21 @@ video {
 }
 
 
+.consulting-heading-wrapper {
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+    border-bottom: 5px solid darkgrey;
+    height: 80px;
+}
 
+.consulting-heading-wrapper h1 {
+    transform: translateY(50%);
+}
 
+.consulting-button {
+    background-color: darkred;
+}
 
 
 
@@ -281,7 +293,6 @@ video {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
 }
 
 .container-contact {
