@@ -365,6 +365,18 @@ video {
     .video {
         background-color: black;
     }
+
+    .consulting-heading-wrapper {
+        height: 160px;
+    }
+
+    .consulting-img {
+        width: 100vw;
+    }
+
+    .contact-img {
+        width: 100vw;
+    }
 }
 
 @media only screen and (max-width: 320px) {
