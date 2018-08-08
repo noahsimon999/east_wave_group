@@ -190,6 +190,7 @@ video {
     font-size: 1.25rem;
     color: white;
     border-radius: 15px;
+    margin-top: 30px;
 }
 
 .about-button:hover {
@@ -215,10 +216,15 @@ video {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 
 .container-about .row {
     margin-bottom: 40px;
+}
+
+.container-about .col-lg-4 {
+    margin-bottom: 15px;
 }
 
 
@@ -234,6 +240,10 @@ video {
     margin-top: -10px;
 }
 
+.end-about-content {
+    width: 100%;
+}
+
 
 /* ---------------------------- consulting page ---------------------------- */
 
@@ -243,6 +253,7 @@ video {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 
 .logos img {
@@ -270,6 +281,7 @@ video {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 
 .container-contact {
